@@ -1,0 +1,320 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav{
+width: 100%;
+height: 100px;
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+align-items: center;
+
+  .logo{
+    width: 201px;
+    height: 64px;
+    margin-right: 400px;
+
+  } //logo
+
+  .menu{
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+    li{
+      list-style: none;
+
+      a{
+        width: 48px;
+        height: 16px;
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 16px;
+        color: #083E9E;        
+        text-decoration: none;
+      }
+    }
+  } //menu
+
+  .create{
+    width: 218px;
+    height: 53px;
+    border: 1px solid #414851;
+    border-radius: 4px;   
+    background-color: transparent;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #083E9E;     
+  }
+} //navbar 
+
+main{
+  width: 100%;
+  height: 1762px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+  .sec1{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+
+    .header1{
+      width: 474px;
+      height: 92px;
+      font-family: 'Josefin Sans';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 40px;
+      line-height: 114.5%;
+      color: #083E9E;
+    } //header1
+
+    .right{
+      margin-top: 150px;
+      height: 450px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      .input{
+        height: 320px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        
+        label{
+          width: 180px;
+          height: 24px;
+          font-family: 'Josefin Sans';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 24px;
+          color: #4A5568;          
+        } //label
+
+        input{
+          width: 474px;
+          height: 64px;
+          border: none;
+          background: rgba(0, 136, 204, 0.08);
+          border-radius: 4px;
+        }//
+
+
+      } //input
+      p{
+        width: 217px;
+        height: 60px;
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 24px;
+        color: #083E9E; 
+        align-self: center;
+
+        span{
+          width: 207px;
+          height: 36px;
+          font-family: 'Josefin Sans';
+          font-style: normal;
+          font-weight: 600;
+          font-size: 36px;
+          line-height: 36px;
+          color: #000000;          
+        }
+      } //p
+    } //right
+  } //sec1
+
+  .sec2{
+    width: 100%;
+    height: 723px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    .header2{
+      width: 553px;
+      height: 46px;
+      font-family: 'Josefin Sans';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 40px;
+      line-height: 114.5%;
+      color: #083E9E;      
+    } //header2
+
+    .wrapper{
+      width: 100%;
+      display: flex;
+      justify-content: space-evenly;
+    } //wrapper
+
+    .sec2right{
+      height: 300px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      p{
+        width: 580px;
+        height: 81px;
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 114.5%;
+        color: #4A5568;
+      }//p
+
+      .create2{
+        width: 218px;
+        height: 53px;
+        background: #30C57B;
+        border: none;
+        border-radius: 4px;
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 16px;
+        color: #FFFFFF;
+      }
+    }//sec2right
+  } //sec2
+
+  .sec3{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    .header3{
+      width: 919px;
+      height: 115px;
+      font-family: 'Josefin Sans';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 40px;
+      line-height: 40px;
+      color: #083E9E;
+      text-align: center;
+
+      span{
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 16px;
+        text-align: center;
+        color: #4A5568;
+      } //span
+    } //header3
+
+    .create3{
+      width: 218px;
+      height: 53px;
+      background: #144499;
+      border-radius: 4px;
+      border: none;
+      font-family: 'Josefin Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 16px;
+      color: #FFFFFF;
+    }
+  } //sec3
+
+
+} //main
+
+
+footer{
+  height: 310px;
+  width: 100%;
+  background-color: rgba(0, 136, 204, 0.04);  
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 60px;
+  align-items: start;
+
+  .logoinfo{
+    width: 800px;
+    height: 226px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    img{
+      width: 180px;
+      height: 57px;
+    } //img
+
+    p{
+      width: 800px;
+      height: 130px;
+      font-family: 'Josefin Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px; 
+      line-height: 14px;
+      color: #000000;
+    }//p 
+  } //logoinfo
+
+  .fc{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    h1{
+      width: 87px;
+      height: 16px;
+      font-family: 'Josefin Sans';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 16px;
+      color: #000000;
+    }
+    ul{
+      list-style: none;
+      height: 130px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+    }
+  } //fc
+
+  .quick{
+    height: 180px;
+  }
+
+  .company{
+    height: 230px;
+
+    .socialicons{
+      width: 100px;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+} //footer
